@@ -1,0 +1,20 @@
+{{!< default}}
+
+<div class="content-area">
+    <main class="site-main">
+        <section>
+            <div class="container medium">
+                <h1>所有文章</h1>
+            </div>
+        </section>
+        <div class="post-feed container medium">
+            {{#get "posts" limit="all" order="published_at desc"}}
+              <article class="content-wrap">
+                {{#foreach posts visibility="all"}}
+                  {{> "loop"}}
+                {{/foreach}}
+              </article>
+            {{/get}}
+        </div>
+    </main>
+</div>
