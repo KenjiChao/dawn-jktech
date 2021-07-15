@@ -447,12 +447,6 @@ function theme() {
     var toggle = $('.js-theme');
     var toggleText = toggle.find('.theme-text');
 
-    function system() {
-        html.removeClass(['theme-dark', 'theme-light']);
-        localStorage.removeItem('dawn_theme');
-        toggleText.text(toggle.attr('data-system'));
-    }
-
     function dark() {
         html.removeClass('theme-light').addClass('theme-dark');
         localStorage.setItem('dawn_theme', 'dark');
@@ -473,7 +467,7 @@ function theme() {
             light();
             break;
         default:
-            system();
+            dark();
             break;
     }
 
@@ -485,7 +479,7 @@ function theme() {
         } else if (html.hasClass('theme-dark')) {
             light();
         } else {
-            system();
+            dark();
         }
     });
 }
