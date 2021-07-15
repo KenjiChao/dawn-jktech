@@ -1,19 +1,11 @@
 <article class="feed {{post_class}}">
-    <div class="feed-calendar">
-        <div class="feed-calendar-month">
-            {{date published_at format="MMM"}}
-        </div>
-        <div class="feed-calendar-day">
-            {{date published_at format="DD"}}
-        </div>
-    </div>
     <h2 class="feed-title">{{title}}</h2>
     <div class="feed-right">
         <svg class="icon feed-visibility feed-visibility-{{visibility}}">
             <use xlink:href="#star"></use>
         </svg>
         <div class="feed-length">
-            {{reading_time minute="閱讀時間 1 分鐘" minutes="閱讀時間 % 分鐘"}}
+            {{date published_at format="YYYY-MM-DD"}}
         </div>
     </div>
     <svg class="icon feed-icon">
