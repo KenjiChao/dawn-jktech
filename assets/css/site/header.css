@@ -23,6 +23,10 @@
     margin-left: 2rem;
 }
 
+.header-right a {
+    font-size: 100%;
+}
+
 .logo {
     position: relative;
 }
@@ -107,7 +111,7 @@
     margin: 0;
     padding: 0.7rem 1.5rem;
     color: var(--white-color);
-    font-size: 1.3rem;
+    font-size: 2.3rem;
 }
 
 .mobile-menu {
@@ -125,7 +129,7 @@
 .mobile-menu .menu-item {
     margin: 0;
     font-size: 1.8rem;
-    text-align: right;
+    text-align: center;
 }
 
 .mobile-menu .menu-item + .menu-item {
