@@ -1,5 +1,5 @@
 .u-text-format {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     line-height: 1.8;
 }
 
@@ -30,18 +30,17 @@
 }
 
 .u-text-format h1 {
-    font-size: 2.8rem;
+    font-size: 3.0rem;
     letter-spacing: -0.03rem;
 }
 
 .u-text-format h2 {
-    font-size: 2.3rem;
+    font-size: 2.5rem;
     letter-spacing: -0.03rem;
 }
 
 .u-text-format h3 {
-    color: var(--secondary-text-color);
-    font-size: 2rem;
+    font-size: 2.2rem;
     letter-spacing: -0.03rem;
 }
 

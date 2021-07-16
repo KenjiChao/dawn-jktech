@@ -50,6 +50,7 @@
 
 .single-cta-title {
     margin: 0 0 2rem !important;
+    font-size: 2.2rem !important;
 }
 
 .single-cta-button {
@@ -58,7 +59,7 @@
     padding-bottom: 3rem;
     font-weight: 800 !important;
     text-decoration: none !important;
-    font-size: 2.2rem;
+    font-size: 2rem;
 }
 
 .single-cta-secondary-button {
@@ -67,7 +68,7 @@
     padding-bottom: 3rem;
     font-weight: 800 !important;
     text-decoration: none !important;
-    font-size: 2.2rem;
+    font-size: 2rem;
     color: var(--darker-gray-color) !important;
 }
 
@@ -110,7 +111,7 @@
 }
 
 .single-footer-bottom {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 @media (max-width: 767px) {
@@ -128,5 +129,17 @@
 
     .single-media {
         margin-top: 3rem;
+    }
+
+    .single-cta-title {
+        font-size: 2rem !important;
+    }
+
+    .single-cta-button {
+        font-size: 1.67rem;
+    }
+
+    .single-cta-secondary-button {
+        font-size: 1.67rem;
     }
 }
