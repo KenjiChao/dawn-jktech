@@ -56,9 +56,8 @@
 
 .sticky-toc-link {
     padding: 0.6rem 1.7rem;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    text-transform: uppercase;
 }
 
 .sticky-toc-link-indented::before {
