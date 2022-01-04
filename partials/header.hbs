@@ -32,29 +32,15 @@
             <div class="container">
                 <nav class="mobile-nav">
                     {{navigation}}
-                    {{#if @member}}
-                        <button class="button-text menu-item members-account" data-portal="account">Account</button>
-                        {{#unless @member.paid}}
-                            <button class="button-text menu-item menu-item-cta members-upgrade" data-portal="account/plans">Upgrade</button>
-                        {{/unless}}
-                    {{else}}
-                        <a href="https://linktr.ee/jktech" class="button button-text menu-item members-login" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
-                        <a href="https://glow.fm/jktech/" class="button button-text menu-item menu-item-cta members-subscribe" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
-                    {{/if}}
+                    <a href="https://linktr.ee/jktech" class="button button-text menu-item members-login" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
+                    <a href="https://glow.fm/jktech/" class="button button-text menu-item menu-item-cta members-subscribe" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
                 </nav>
             </div>
         </div>
     {{/if}}
     <div class="header-right hidden-xs hidden-sm hidden-md">
-        {{#if @member}}
-            <button class="button-text menu-item members-account" data-portal="account">Account</button>
-            {{#unless @member.paid}}
-                <button class="button-text menu-item menu-item-cta members-upgrade" data-portal="account/plans">Upgrade</button>
-            {{/unless}}
-        {{else}}
-            <a href="https://linktr.ee/jktech" class="button button-text menu-item members-login" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
-            <a href="https://glow.fm/jktech/" class="button button-text menu-item menu-item-cta members-subscribe" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
-        {{/if}}
+        <a href="https://linktr.ee/jktech" class="button button-text menu-item members-login" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
+        <a href="https://glow.fm/jktech/" class="button button-text menu-item menu-item-cta members-subscribe" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
     </div>
 </header>
 
