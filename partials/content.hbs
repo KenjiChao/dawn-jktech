@@ -45,11 +45,13 @@
     </header>
     <div class="single-content kg-canvas u-text-format">
         {{content}}
-        <section class="single-cta">
-            <h2 class="single-cta-title">喜歡這篇文章嗎？你還可以這樣支持我們</h2>
-            <a href="https://glow.fm/jktech/" class="button single-cta-button" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
-            <a href="https://linktr.ee/jktech" class="button single-cta-secondary-button" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
-        </section>
+        {{#unless no_cta}}
+            <section class="single-cta">
+                <h2 class="single-cta-title">喜歡這篇文章嗎？你還可以這樣支持我們</h2>
+                <a href="https://glow.fm/jktech/" class="button single-cta-button" target="_blank" rel="noopener noreferrer">成為贊助夥伴</a>
+                <a href="https://linktr.ee/jktech" class="button single-cta-secondary-button" target="_blank" rel="noopener noreferrer">收聽 Podcast</a>
+            </section>
+        {{/unless}}
     </div>
     {{#is "post"}}
         <footer class="single-footer container medium">
